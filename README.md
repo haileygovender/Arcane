@@ -40,6 +40,10 @@ Welcome to Arcane, your ultimate gaming companion that takes you on an extraordi
 2. **Name Entry:** Personalize your gaming journey by entering your name.
 3. **Main Menu:** Navigate through games, profile options, manuals, and more from the main menu.
 
+   ![image](https://github.com/haileygovender/Arcane/assets/144168154/869b3e59-4fd8-43f6-9b0d-87a50790ea9e)
+![image](https://github.com/haileygovender/Arcane/assets/144168154/32286079-22dd-4377-9bce-15f4e285f473)
+
+
 ## Features
 
 ### Temporary Data Storage
@@ -96,21 +100,26 @@ To install Arcane, follow these steps:
 
 - **Objective:** Sort the books in ascending order before the time runs out.
 - **Points:** Earn points for completing the sorting before the timer expires.
+![image](https://github.com/haileygovender/Arcane/assets/144168154/3120c605-6587-45e8-8659-c9bed9d5098f)
 
 ### Game 2: Matching Books
 
 - **Objective:** Match the book with the calling number in alternating sequences.
 - **Points:** Earn points for each correct match.
+![image](https://github.com/haileygovender/Arcane/assets/144168154/caa8831d-bea8-4909-8d99-71bdd0e311a1)
+
 
 ### Game 3: Call Number Identification
 
 - **Objective:** Identify call numbers by choosing the correct options.
 - **Points:** Earn points for correct answers, lose points if the timer exceeds a certain limit.
+![image](https://github.com/haileygovender/Arcane/assets/144168154/4cdd1790-43a7-42ce-9c56-629e07e7869e)
 
 ## Profile Page
 
 - **View Total Points:** Monitor your accumulated points.
 - **View Ranking Level:** Check your current ranking level.
+![image](https://github.com/haileygovender/Arcane/assets/144168154/76367448-50ff-4391-9914-dd21340c6d78)
 
 ## Manuals
 
