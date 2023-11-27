@@ -40,9 +40,6 @@ Welcome to Arcane, your ultimate gaming companion that takes you on an extraordi
 2. **Name Entry:** Personalize your gaming journey by entering your name.
 3. **Main Menu:** Navigate through games, profile options, manuals, and more from the main menu.
 
-   ![image](https://github.com/haileygovender/Arcane/assets/144168154/869b3e59-4fd8-43f6-9b0d-87a50790ea9e)
-![image](https://github.com/haileygovender/Arcane/assets/144168154/32286079-22dd-4377-9bce-15f4e285f473)
-
 
 ## Features
 
@@ -72,12 +69,14 @@ To install Arcane, follow these steps:
 
 1. **Splash Screen:**
    - Upon launching the application, a splash screen is displayed.
+ ![image](https://github.com/haileygovender/Arcane/assets/144168154/869b3e59-4fd8-43f6-9b0d-87a50790ea9e)
 
 2. **Name Entry:**
    - Enter your name to personalize your gaming experience.
 
 3. **Main Menu:**
    - Navigate through the main menu to access games, profile, manuals, and exit options.
+![image](https://github.com/haileygovender/Arcane/assets/144168154/32286079-22dd-4377-9bce-15f4e285f473)
 
 4. **Gaming Sessions:**
    - Select a game from the menu and follow on-screen instructions to play.
