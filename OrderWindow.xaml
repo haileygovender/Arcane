@@ -1,0 +1,63 @@
+﻿<Window x:Class="ST10084623_PROG7312.OrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ST10084623_PROG7312"
+        mc:Ignorable="d"
+        Background="#2C3E50"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Title="OrderWindow" Height="500" Width="800">
+    <materialDesign:Card UniformCornerRadius="15" Background="#34495E"
+       materialDesign:ElevationAssist.Elevation="Dp4" Margin="25">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <WrapPanel>
+                    <Image Source="Images/A_logo.png" HorizontalAlignment="Left" Width="30" Height="30"/>
+                    <TextBlock Text="ARCANE" Foreground="White" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left"
+                               VerticalAlignment="Center" Margin="15,0,0,0"/>
+                </WrapPanel>
+
+                <!-- ListBox1 -->
+                <ListBox Name="listBox1" Width="150" Height="100" Margin="20,-5,0,0" Background="#34495E" Foreground="White" BorderBrush="Transparent"/>
+
+                <!-- Add Button with an icon -->
+                <Button IsEnabled="False" Name="btnAdd" Margin="0,20,-10,0" Background="#E74C3C" FontWeight="Bold" Width="30" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Click="btnAdd_Click">
+                    <materialDesign:PackIcon Kind="Plus" VerticalAlignment="Center" Foreground="Black" Width="16" Height="16" Margin="-5,0,0,0" />
+                </Button>
+
+                <!-- Remove Button with an icon -->
+                <Button IsEnabled="False" Name="btnRemove" Margin="0,20,-10,0" Background="#E74C3C" FontWeight="Bold" Width="30" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.66,1.386" Click="btnRemove_Click">
+                    <materialDesign:PackIcon Kind="Minus" VerticalAlignment="Center" Foreground="Black" Width="16" Height="40" Margin="-5,0,0,0" />
+                </Button>
+
+
+                <!-- ListBox2 -->
+                <ListBox Name="listBox2" Width="150" Height="102"  Margin="20,20,0,0" Background="#34495E" Foreground="White" BorderBrush="Transparent"/>
+
+                <Button IsEnabled="false" Name="btnDone" Content="Done"  Margin="10,30,0,-10"  Width="100" VerticalAlignment="Center"
+                            HorizontalAlignment="Left" Background="#2ECC71" FontWeight="Bold" Click="btnDone_Click" />
+                <Button Name="btnAnswer" IsEnabled="False" Content="Show Answer" Margin="0,-20,0,0" Width="128"
+                            HorizontalAlignment="Center" Background="#F1C40F" FontWeight="Bold" Click="btnAnswer_Click"/>
+                <Button Name="btnNewGame" Content="New Game" Margin="0,-32,0,0" Width="112"
+                            HorizontalAlignment="Right" Background="#3498DB" FontWeight="Bold" Click="btnNewGame_Click" />
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Button HorizontalAlignment="Right" Margin="200,0,0,0" Content="Back" Click="Button_Click" Background="#E74C3C" FontWeight="Bold"/>
+                <ListBox SelectionMode="Single" IsEnabled="False" x:Name="lbAnswer" Width="150" Height="157" Visibility="Hidden" Background="#34495E" Foreground="White" BorderBrush="Transparent" />
+                    <TextBlock Name="countdownText" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Margin="0,90,0,10" VerticalAlignment="Bottom" FontSize="36" Foreground="White"/>
+                <ProgressBar Name="countdownProgressBar" Foreground="Green" Background="#34495E" Margin="-300" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="20"/>
+                    <TextBlock Name="tbScore" FontSize="35" Foreground="Green" TextAlignment="Center"  Margin="30"/>
+            </StackPanel>
+
+        </Grid>
+    </materialDesign:Card>
+</Window>
